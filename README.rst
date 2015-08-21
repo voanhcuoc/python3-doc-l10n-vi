@@ -1,3 +1,13 @@
+python3-doc-l10n-vi
+~~~~~~~~~~~~~~~~~~~
+
+Vietnamese localization of Python 3 documentation
+Homepage: ...
+GitHub repository: <https://github.com/voanhcuoc/python3-doc-l10n-vi>
+Bug in the tranlated version should be report by create an issue in GitHub page.
+This documentation is under license of Python Software Foundation.
+For more detail. See the Python Documentation README below.
+
 Python Documentation README
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
