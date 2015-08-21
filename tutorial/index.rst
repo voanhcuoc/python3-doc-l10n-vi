@@ -4,40 +4,41 @@
   The Python Tutorial
 ######################
 
-Python is an easy to learn, powerful programming language. It has efficient
-high-level data structures and a simple but effective approach to
-object-oriented programming. Python's elegant syntax and dynamic typing,
-together with its interpreted nature, make it an ideal language for scripting
-and rapid application development in many areas on most platforms.
+Python là một ngôn ngữ dễ học và mạnh mẽ. Nó có những cấu trúc dữ liệu cấp cao
+hiệu suất cao và cách tiếp cận lập trình đối tượng đơn giản mà hiệu quả. Cú pháp
+tao nhã và kiểu dữ liệu động của Python, cùng với bản chất thông dịch biến nó
+thành một ngôn ngữ lí tưởng để scripting và phát triển ứng dụng nhanh trong
+nhiều lĩnh vực và trên hầu hết mọi hệ thống. 
 
-The Python interpreter and the extensive standard library are freely available
-in source or binary form for all major platforms from the Python Web site,
-https://www.python.org/, and may be freely distributed. The same site also
-contains distributions of and pointers to many free third party Python modules,
-programs and tools, and additional documentation.
+Trình thông dịch Python và bộ thư viện chuẩn đầy đủ được cung cấp miễn phí ở
+dạng mã nguồn hoặc nhị phân cho mọi platform chính từ trang chủ Python,
+http://www.python.org/, và có thể được phát tán tùy thích. Trang chủ đó cũng
+phân phối và liên kết nhiều module Python khác của bên thứ ba, các chương
+trình và công cụ, cũng như các tài liệu bổ sung.
 
-The Python interpreter is easily extended with new functions and data types
-implemented in C or C++ (or other languages callable from C). Python is also
-suitable as an extension language for customizable applications.
+Trình thông dịch Python có thể được mở rộng dễ dàng với những hàm và kiểu dữ liệu
+được thực thi trong C hoặc C++ (hoặc ngôn ngữ nào đó có thể gọi được từ C). Python
+cũng phù hợp dùng làm ngôn ngữ mở rộng cho các ứng dụng tùy biến.
 
-This tutorial introduces the reader informally to the basic concepts and
-features of the Python language and system. It helps to have a Python
-interpreter handy for hands-on experience, but all examples are self-contained,
-so the tutorial can be read off-line as well.
+Tutorial này giới thiệu với người đọc bằng một cách dễ hiểu những khái
+niệm cơ bản và các tính năng của ngôn ngữ và hệ thống Python. Để tận dụng
+tốt nhất tutorial này, bạn nên có trình thông dịch Python sẵn sàng để thực tập.
+Nhưng bạn cũng không nhất thiết cần đến nó để đọc tài liệu này vì mọi ví dụ
+đều ngắn và dễ hiểu. 
 
-For a description of standard objects and modules, see :ref:`library-index`.
-:ref:`reference-index` gives a more formal definition of the language.  To write
-extensions in C or C++, read :ref:`extending-index` and
-:ref:`c-api-index`. There are also several books covering Python in depth.
+Để tìm hiểu thêm về các object và module chuẩn, xem :ref:`library-index`.
+:ref:`reference-index` chứa định định nghĩa chính thức hơn về ngôn ngữ. Để viết
+các extension bằng C hoặc C++, đọc :ref:`extending-index` và
+:ref:`c-api-index`. Và cũng có nhiều sách khác nói sâu hơn về Python. 
 
-This tutorial does not attempt to be comprehensive and cover every single
-feature, or even every commonly used feature. Instead, it introduces many of
-Python's most noteworthy features, and will give you a good idea of the
-language's flavor and style. After reading it, you will be able to read and
-write Python modules and programs, and you will be ready to learn more about the
-various Python library modules described in :ref:`library-index`.
+Tutorial này không cố gắng bao hàm tất cả về mọi tính năng riêng biệt, hay thậm chí
+mọi tính năng hay dùng.  Thay vào đó, nó giới thiệu nhiều chức năng đáng lưu ý
+của Python và đem lại cho bạn một góc nhìn về *flavor and style* của ngôn ngữ này.
+Sau khi đọc xong, bạn sẽ có thể đọc và viết các module và chương trình Python,
+và bạn sẽ sẵn sàng tìm hiểu tiếp về những module Python khác được mô tả trong
+:ref:`library-index`.
 
-The :ref:`glossary` is also worth going through.
+Bạn nên xem qua :ref:`glossary`.
 
 .. toctree::
    :numbered:
