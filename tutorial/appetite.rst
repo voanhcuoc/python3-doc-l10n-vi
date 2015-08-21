@@ -1,87 +1,89 @@
 .. _tut-intro:
 
 **********************
-Whetting Your Appetite
+Khai vị
 **********************
 
-If you do much work on computers, eventually you find that there's some task
-you'd like to automate.  For example, you may wish to perform a
-search-and-replace over a large number of text files, or rename and rearrange a
-bunch of photo files in a complicated way. Perhaps you'd like to write a small
-custom database, or a specialized GUI application, or a simple game.
+Nếu bạn làm việc nhiều với máy vi tính, một lúc nào đó bạn sẽ nhận thấy bạn
+muốn tự động hóa một số việc. Ví dụ, bạn muốn thực hiện một phép tìm kiếm và
+thay thế với nhiều file text, hoặc đổi tên và sắp xếp một loạt các file ảnh theo
+một cách phức tạp. Có thể bạn muốn viết cơ sở dữ liệu tùy biến nho nhỏ,
+hoặc một ứng dụng với giao diện đồ họa đặc biệt, hay một trò chơi đơn giản. 
 
-If you're a professional software developer, you may have to work with several
-C/C++/Java libraries but find the usual write/compile/test/re-compile cycle is
-too slow.  Perhaps you're writing a test suite for such a library and find
-writing the testing code a tedious task.  Or maybe you've written a program that
-could use an extension language, and you don't want to design and implement a
-whole new language for your application.
+Nếu bạn là một nhà phát triển phần mềm chuyên nghiệp, bạn có thể làm việc với
+nhiều thư viện C/C++/Java nhưng bạn nhận thấy thường lặp đi lặp lại việc
+viết/biên dịch/thử/biên dịch là quá tốn thời gian. Có thể bạn viết một bộ
+các test cho các thư viện ấy và nhận ra rằng viết code để thử nghiệm là một
+việc chán ngấy. Hoặc có thể bạn viết một chương trình cần sử dụng một ngôn ngữ
+mở rộng, và bạn không muốn thiết kế, xây dựng cả một ngôn ngữ mới cho ứng dụng của mình. 
 
-Python is just the language for you.
+Python chính là ngôn ngữ lập trình bạn cần. 
 
-You could write a Unix shell script or Windows batch files for some of these
-tasks, but shell scripts are best at moving around files and changing text data,
-not well-suited for GUI applications or games. You could write a C/C++/Java
-program, but it can take a lot of development time to get even a first-draft
-program.  Python is simpler to use, available on Windows, Mac OS X, and Unix
-operating systems, and will help you get the job done more quickly.
+Bạn có thể viết một Unix shell script hoặc Windows batch file cho các công việc
+kiểu này, nhưng shell script chỉ tốt cho việc di chuyển các file lòng vòng và
+sửa đổi các dữ liệu văn bản, nó không thích hợp cho một ứng dụng GUI hoặc một
+trò chơi. Bạn cần viết một chương trình bằng C/C++/Java, nhưng nó có thể tiêu tốn
+nhiều thời gian cho việc phát triển thậm chí từ bản nháp đầu tiên của chương trình.
+Sử dụng Python đơn giản hơn, chạy được cả trên Windows, MacOS X, các hệ điều hành
+Unix, và nó cũng giúp bạn hoàn thành công việc nhanh hơn. 
 
-Python is simple to use, but it is a real programming language, offering much
-more structure and support for large programs than shell scripts or batch files
-can offer.  On the other hand, Python also offers much more error checking than
-C, and, being a *very-high-level language*, it has high-level data types built
-in, such as flexible arrays and dictionaries.  Because of its more general data
-types Python is applicable to a much larger problem domain than Awk or even
-Perl, yet many things are at least as easy in Python as in those languages.
+Sử dụng Python thì đơn giản, nhưng nó là một ngôn ngữ lập trình thực sự, cung cấp
+nhiều cấu trúc hơn và hỗ trợ các chương trình lớn hơn so với các ngôn ngữ shell
+hoặc Windows batch file. Mặt khác, Python cũng hỗ trợ nhiều phép kiểm tra lỗi hơn C,
+và, là một *ngôn ngữ bậc-rất-cao*, nó có sẵn các kiểu dữ liệu cấp cao, như các mảng
+và các dictionary linh hoạt. Chính vì nhiều kiểu dữ liệu tổng quát của nó Python
+được ứng dụng rộng rãi hơn Awk hoặc thậm chí là Perl trong nhiều loại công việc
+khác nhau, do đó có nhiều việc làm bằng Python cũng dễ dàng như làm bằng các ngôn ngữ khác.
 
-Python allows you to split your program into modules that can be reused in other
-Python programs.  It comes with a large collection of standard modules that you
-can use as the basis of your programs --- or as examples to start learning to
-program in Python.  Some of these modules provide things like file I/O, system
-calls, sockets, and even interfaces to graphical user interface toolkits like
-Tk.
+Python cho phép bạn chia nhỏ chương trình của mình ra thành các module để có thể
+sử dụng lại trong các chương trình Python khác. Nó có sẵn rất nhiều các module
+chuẩn để bạn có thể sử dụng làm cơ sở cho chương trình của mình -- hoặc là các
+ví dụ để bắt đầu học lập trình bằng Python. Một vài module trong số chúng cung cấp
+các chức năng như file I/O (vào/ra), các system call, các socket, và thậm chí
+các interface với các GUI toolkit như Tk.
 
-Python is an interpreted language, which can save you considerable time during
-program development because no compilation and linking is necessary.  The
-interpreter can be used interactively, which makes it easy to experiment with
-features of the language, to write throw-away programs, or to test functions
-during bottom-up program development. It is also a handy desk calculator.
+Python là một ngôn ngữ thông dịch, điều đó giúp bạn tiết kiệm thời gian trong
+quá trình phát triển chương trình vì việc biên dịch hay liên kết là không cần thiết.
+Bộ thông dịch có thể được dùng một cách tương tác, làm cho việc thử nghiệm các
+tính năng của ngôn ngữ trở nên dễ dàng, viết các chương trình bỏ đi, hoặc thử các
+hàm trong việc phát triển chương trình từ dưới lên. Nó cũng là một máy tính
+cầm tay tiện lợi. 
 
-Python enables programs to be written compactly and readably.  Programs written
-in Python are typically much shorter than equivalent C,  C++, or Java programs,
-for several reasons:
+Python cho phép viết các chương trình súc tích và dễ đọc. Các chương trình viết
+bằng Python thường ngắn hơn so với các chương trình viết bằng C, C++ hoặc Java,
+vì nhiều lý do:
 
-* the high-level data types allow you to express complex operations in a single
-  statement;
+* các kiểu dữ liệu cao cấp cho phép bạn thực hiện nhanh các thao tác phức tạp
+  chỉ với một lệnh đơn giản; 
 
-* statement grouping is done by indentation instead of beginning and ending
-  brackets;
+* các lệnh được nhóm lại bằng khoảng cách thụt đầu dòng thay vì đóng mở bằng
+  các dấu ngoặc; 
 
-* no variable or argument declarations are necessary.
+* không cần khai báo biến hoặc tham số trước khi sử dụng. 
 
-Python is *extensible*: if you know how to program in C it is easy to add a new
-built-in function or module to the interpreter, either to perform critical
-operations at maximum speed, or to link Python programs to libraries that may
-only be available in binary form (such as a vendor-specific graphics library).
-Once you are really hooked, you can link the Python interpreter into an
-application written in C and use it as an extension or command language for that
-application.
+Python có tính *mở rộng*(extensible): nếu bạn biết lập trình C thì rất dễ để
+bổ sung các hàm hoặc module built-in vào bộ thông dịch, cũng như việc thực hiện
+các thao tác quan trọng ở tốc độ tối đa, hoặc liên kết các chương trình Python
+với các thư viện chỉ được cung cấp dưới dạng nhị phân (ví dụ như các thư viện
+đồ họa của một vài nhà sản xuất). Một khi bạn đã thực sự móc nối, bạn có thể
+liên kết bộ thông dịch Python vào trong các ứng dụng viết bằng C và sử dụng
+nó như một extension hoặc ngôn ngữ lệnh cho ứng dụng đó. 
 
-By the way, the language is named after the BBC show "Monty Python's Flying
-Circus" and has nothing to do with reptiles.  Making references to Monty
-Python skits in documentation is not only allowed, it is encouraged!
+Cũng xin nói luôn, tên của ngôn ngữ này được đặt sau khi BBC phát chương trình
+"Monty Python's Flying Circus" và nó không có liên quan gì với những loài bò sát.
+Những tham khảo mang tính trào phúng tới Monty Python trong tài liệu không chỉ
+được cho phép, mà còn được cổ vũ. 
 
-Now that you are all excited about Python, you'll want to examine it in some
-more detail.  Since the best way to learn a language is to use it, the tutorial
-invites you to play with the Python interpreter as you read.
+Bây giờ khi tất cả các bạn đã bị kích thích về Python, bạn sẽ muốn khám phá nó
+kỹ hơn. Cách học một ngôn ngữ tốt nhất là hãy sử dụng nó, tutorial này mời gọi
+bạn hãy vừa đọc vừa thử trình thông dịch Python. 
 
-In the next chapter, the mechanics of using the interpreter are explained.  This
-is rather mundane information, but essential for trying out the examples shown
-later.
+Trong chương tiếp theo, các kĩ thuật sử dụng bộ thông dịch sẽ được giải thích.
+Điều này không đơn thuần là thông tin, nó còn cần thiết cho việc thử các ví dụ
+được trình bày về sau. 
 
-The rest of the tutorial introduces various features of the Python language and
-system through examples, beginning with simple expressions, statements and data
-types, through functions and modules, and finally touching upon advanced
-concepts like exceptions and user-defined classes.
-
+Phần còn lại của tutorial sẽ giới thiệu các tính năng khác nhau của ngôn ngữ
+Python và hệ thống thông qua các ví dụ, bắt đầu với các biểu thức đơn giản,
+các câu lệnh và các kiểu dữ liệu, đi qua các hàm và các module, và kết thúc là
+tiếp cận với các khái niệm cao cấp như *exception* và các *user-defined class*. 
 
