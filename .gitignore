@@ -1,0 +1,21 @@
+# cache and mics
+################
+*.cover
+*.o
+*.orig
+*.pyc
+*.pyd
+*.pyo
+*.rej
+*.swp
+__pycache__
+
+# backup and draft
+##################
+*~
+\#*
+
+# building
+##########
+Doc/build/
+Doc/venv/
